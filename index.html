@@ -16,7 +16,9 @@
     <script src="https://kit.fontawesome.com/c714fecd89.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main.css">
 </head>
-
+<?
+include("php/form.php");
+?>
 <body data-bs-spy="scroll" data-bs-target="#navId">
     <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3" id="navId">
         <div class="container">
@@ -61,7 +63,12 @@
                 <h2 class="section-title">o nas</h2>
                 <div class="underline"></div>
                 <div class="aboutus-main text-center ">
-                    <p>Połysk&fresh to wiodąca firma sprzątająca, świadcząca usługi sprzątania dla klientów biznesowych jak i prywatnych osób na całym Podhalu! Nasza wysoko wykwalifikowana ekipa specjalistów oferuje kompleksowe i profesjonalne rozwiązania czyszczące. Niezawodność, jakość i precyzja są naszymi priorytetami. Działamy z pasją i zaangażowaniem, aby zapewnić doskonałe wyniki sprzątania w każdym zleceniu. Nasze Usługi sprzątające obejmują sprzątanie biur, pensjonatów, hoteli, czy domów jednorodzinnych .</p>
+                    <p>Połysk&fresh to wiodąca firma sprzątająca, świadcząca usługi sprzątania dla klientów biznesowych
+                        jak i prywatnych osób na całym Podhalu! Nasza wysoko wykwalifikowana ekipa specjalistów oferuje
+                        kompleksowe i profesjonalne rozwiązania czyszczące. Niezawodność, jakość i precyzja są naszymi
+                        priorytetami. Działamy z pasją i zaangażowaniem, aby zapewnić doskonałe wyniki sprzątania w
+                        każdym zleceniu. Nasze Usługi sprzątające obejmują sprzątanie biur, pensjonatów, hoteli, czy
+                        domów jednorodzinnych .</p>
                 </div>
                 <div class="row">
 
@@ -142,22 +149,60 @@
                         <img src="./img/apartment.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Obsługa wynajmu</h5>
-                            <p class="card-text">Zajmiemy się Twoim wynajmem, przygotujemy mieszkanie,damy klucze
-                                klientom, odbierzemy klucze i posprzątamy po skończonym pobycie!</p>
+                            <p class="card-text">Naszym celem jest współpraca z właścicielami apartamentów, którzy chcą
+                                by ich nieruchomość zarabiała na siebie. Powierzając nam organizację obsługi Gości,
+                                możecie efektywnie wykorzystać wasze mieszkanie nie tracąc przy tym czasu jednocześnie
+                                zapewnimy kompleksowe przygotownie apartamentu na kolejnych gości!</p>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="./img/recover.jpg" class="card-img-top" alt="...">
+                        <img src="./img/background.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5>Sprzątanie po remoncie</h5>
-                            <p>Po skończonym remoncie my zajmiemy sie brudną robotą!</p>
+                            <h5>Sprzątanie biur</h5>
+                            <p>Wygląd biura jest elementem wizerunku firmy - niezależnie od jej wielkości. Zajmujemy się
+                                profesjonalnym czyszczeniem pomieszczeń biurowych. Do każdego zlecenia podchodzimy w
+                                sposób indywidualny - i w taki sposób przeprowadzamy również wycenę usługi. Określając
+                                zakres usług mamy na uwadze zarówno wielkość, jak i lokalizację, a także typ
+                                pomieszczenia biurowego.
+
+                                Współpraca z nami może być również długofalowa - utrzymujemy biura w nienagannym stanie
+                                dzięki profesjonalnym sprzętom i środkom czystości z których korzystamy.</p>
                         </div>
                     </div>
                     <div class="card">
                         <img src="./img/window.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5>Mycie okien</h5>
-                            <p>Dużo masz okien? znów trzeba je umyć? Zleć to nam umyjemy dla Ciebie!</p>
+                            <p>Dużo masz okien? znów trzeba je umyć? Zleć to nam umyjemy dla Ciebie! Wykonujemy
+                                kompletne mycie okien każdego rodzaju!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/house.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Sprzątanie domów i mieszkań</h5>
+                            <p>Zadbamy o Twój dom/ mieszkanie oferując Ci usług i sprzątanie jednorazowo bądź regularną
+                                usługą. Nasze komlpeksowe sprzątanie pozwoli Ci się cieszyć czystością a Ty
+                                zaoszczędzisz czas który wykorzystasz jak chcesz!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/recover.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Sprzątanie po remoncie/budowie</h5>
+                            <p>Połysk&clean zajmujemy się sprzątaniem po remoncie, budowie. Oferujemy usługę osobom
+                                prywatnym i biznesowym. Do wykonania naszych czynności posiadamy profesjonalny sprzęt i
+                                bezpieczne środki czystości. Gwarantujemy rzetelne i profesjonalne wykonanie usług.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/chemistry.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Usługi dodatkowe</h5>
+                            <p>Poza standardowym pakietem w naszej ofercie znajdują się również usługi dodatkowe.
+                                Świadczymy je z myślą o osobach, które chcą zlecić profesjonalnej ekipie sprzątającej
+                                konkretne zadania wykraczające poza zakres regularnych czynności. Skontaktuj się z nami
+                                i powiedz nam czego potrzebujesz! </p>
                         </div>
                     </div>
                 </div>
@@ -171,39 +216,85 @@
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="./img/apartment.jpg" class="d-block w-100" alt="Okładka gry Pro-X Football">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Obsługa wynajmu</h5>
-                                <p>Zajmiemy się Twoim wynajmem, przygotujemy mieszkanie,damy klucze klientom, odbierzemy
-                                    klucze i posprzątamy po skończonym pobycie!</p>
+                                <p>Naszym celem jest współpraca z właścicielami apartamentów, którzy chcą by ich
+                                    nieruchomość zarabiała na siebie. Powierzając nam organizację obsługi Gości, możecie
+                                    efektywnie wykorzystać wasze mieszkanie nie tracąc przy tym czasu jednocześnie
+                                    zapewnimy kompleksowe przygotownie apartamentu na kolejnych gości!</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/recover.jpg" class="d-block w-100" alt="Okładka gry Racing GT">
+                            <img src="./img/background.jpeg" class="d-block w-100" alt="Okładka gry Racing GT">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Sprzątanie po remoncie</h5>
-                                <p>Po skończonym remoncie my zajmiemy sie brudną robotą!</p>
+                                <h5>Sprzątanie biur</h5>
+                                <p>Wygląd biura jest elementem wizerunku firmy - niezależnie od jej wielkości. Zajmujemy
+                                    się profesjonalnym czyszczeniem pomieszczeń biurowych. Do każdego zlecenia
+                                    podchodzimy w sposób indywidualny - i w taki sposób przeprowadzamy również wycenę
+                                    usługi. Określając zakres usług mamy na uwadze zarówno wielkość, jak i lokalizację,
+                                    a także typ pomieszczenia biurowego.
+
+                                    Współpraca z nami może być również długofalowa - utrzymujemy biura w nienagannym
+                                    stanie dzięki profesjonalnym sprzętom i środkom czystości z których korzystamy.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="./img/window.jpg" class="d-block w-100" alt="Okładka gry Racing GT">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Mycie okien</h5>
-                                <p>Dużo masz okien? znów trzeba je umyć? Zleć to nam umyjemy dla Ciebie!</p>
+                                <p>Dużo masz okien? znów trzeba je umyć? Zleć to nam umyjemy dla Ciebie! Wykonujemy
+                                    kompletne mycie okien każdego rodzaju!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/house.jpg" class="d-block w-100" alt="Okładka gry Racing GT">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sprzątanie domów i mieszkań</h5>
+                                <p>Zadbamy o Twój dom/ mieszkanie oferując Ci usług i sprzątanie jednorazowo bądź
+                                    regularną usługą. Nasze komlpeksowe sprzątanie pozwoli Ci się cieszyć czystością a
+                                    Ty zaoszczędzisz czas który wykorzystasz jak chcesz!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/recover.jpg" class="d-block w-100" alt="Okładka gry Racing GT">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sprzątanie po remoncie/budowie</h5>
+                                <p>Połysk&clean zajmujemy się sprzątaniem po remoncie, budowie. Oferujemy usługę osobom
+                                    prywatnym i biznesowym. Do wykonania naszych czynności posiadamy profesjonalny
+                                    sprzęt i bezpieczne środki czystości. Gwarantujemy rzetelne i profesjonalne
+                                    wykonanie usług.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/chemistry.jpg" class="d-block w-100 " alt="Okładka gry Racing GT">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Usługi dodatkowe</h5>
+                                <p>Poza standardowym pakietem w naszej ofercie znajdują się również usługi dodatkowe.
+                                    Świadczymy je z myślą o osobach, które chcą zlecić profesjonalnej ekipie
+                                    sprzątającej konkretne zadania wykraczające poza zakres regularnych czynności.
+                                    Skontaktuj się z nami i powiedz nam czego potrzebujesz!
+                                </p>
                             </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                         data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                        <span class="carousel-control-prev-icon arrow" aria-hidden="true"></span>
+                        <span class="visually-hidden arrow">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                         data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-next-icon arrow" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -270,7 +361,8 @@
                         <img src="./img/galeria/IMG-20231121-WA0004.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text"><i class="fa-solid fa-quote-left fa-rotate-180"></i>Z Małgosią
-                                współpracuje już od bardzo dawna i jestem bardzo zadowolona z jej usług <i class="fa-solid fa-quote-left fa-rotate-180"></i>
+                                współpracuje już od bardzo dawna i jestem bardzo zadowolona z jej usług <i
+                                    class="fa-solid fa-quote-left fa-rotate-180"></i>
                             </p>
                             <h5 class="card-title">Paula</h5>
                         </div>
@@ -342,29 +434,74 @@
 
                 <div class="row text-center contact-us">
 
-                    <div class="col-sm-6 col-lg-6 contact-item order-1">
+                    <div class="col-sm-6 col-lg-4 contact-item order-1">
                         <h3>Szybki kontakt</h3>
-                        <a href="#" class="social-link"><i class="fa-solid fa-envelope social-media"></i>
-                            <p>cleanandfresh@gmail.com</p>
-                        </a>
-                        <a href="#+48577295375"  class="social-link"><i class="fa-solid fa-phone social-media"></i>
+                        <a href="tel:+48577295375" class="social-link"><i class="fa-solid fa-phone social-media"></i>
                             <p>+ 48 577 295 375</p>
                         </a>
                     </div>
-                    <div class="col-sm-6 col-lg-6 contact-item order-1">
+                    <div class="col-sm-6 col-lg-4 contact-item order-1">
+                        <h3>droga mailowa</h3>
+                        <a href="mailto:michalplaszczak@o2.pl" class="social-link"><i
+                                class="fa-solid fa-envelope social-media"></i>
+                            <p>cleanandfresh@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 contact-item order-1">
                         <h3>Formularz kontaktowy</h3>
+                    
                         <div id="send_form_status"></div>
-                        <form method="post" action="/send_form.php" id="contact_form">
-                            <div><label for="name">Imię i nazwisko</label></div>
-                            <div><input type="text" name="name" id="name" class="formField" /></div>
-                            <div><label for="phone">Numer telefonu</label></div>
-                            <div><input type="text" name="phone" id="phone" class="formField" /></div>
-                            <div><label for="email">Adres email</label></div>
-                            <div><input type="text" name="email" id="email" class="formField" /></div>
-                            <div><label for="message">Treść wiadomości</label></div>
-                            <div><textarea name="message" id="message" class="formField"></textarea></div>
-                            <div><button id="sendBtn">Wyślij</button></div>
-                        </form>
+                        <div class="row">
+                            <form method="post" name="contactform" action="php/form.php">
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="name" class="form-control"
+                                            placeholder="* Imię i nazwisko / Nazwa firmy">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" name="email" id="email" class="form-control"
+                                            placeholder="* Adres e-mail">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <select id="subject" name="subject" class="form-group form-control">
+                                        <option value="" selected disabled>Wybierz temat</option>
+                                        <option>Wycena sprzątania</option>
+                                        <option>Oferta</option>
+                                        <option>Zapytanie o współpracę</option>
+                                        <option>Inny temat</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" name="tel" id="tel" class="form-control"
+                                            placeholder="* Numer telefonu">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="textarea-message form-group">
+                                        <textarea name="message" id="message" class="textarea-message form-control"
+                                            placeholder="* Wiadomość" rows="5"></textarea>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p><small>* Pole obowiązkowe</small></p>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" name="submit" value="Send message"
+                                        class="button text-center">Wyślij</button>
+                                </div>
+
+                            </form>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -373,7 +510,7 @@
     </main>
 
     <footer class="bg-dark text-light py-4 text-center">
-        <p class="mb-0"> &copy; <span class="footer__year"></span>git  | clean&fresh </p>
+        <p class="mb-0"> &copy; <span class="footer__year"></span>| Połysk&fresh </p>
     </footer>
 
 

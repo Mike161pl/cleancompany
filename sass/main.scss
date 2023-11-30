@@ -120,8 +120,6 @@ header.hero-img {
 		font-size: 14px;
 	}
 
-	
-
 	.aboutus-hover:hover {
 		color: $main-color;
 	}
@@ -365,12 +363,12 @@ header.hero-img {
 	}
 
 	.aboutus-hero {
-		background-image: url('../img/about-hero-big.jpeg');
+		background-image: url('../img/cleanerstuff-big.jpg');
 	}
 }
 
 @media (min-width: 1200px) {
 	header.hero-img {
-		background-image: url('../img/hero-big.jpeg');
+		background-image: url('../img/big-home.jpg');
 	}
 }
