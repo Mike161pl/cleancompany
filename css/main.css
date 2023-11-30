@@ -210,8 +210,8 @@ header.hero-img .fa-chevron-down {
 .portfolio .carousel-indicators {
 	padding-bottom: 20px;
 }
-.arrow{
-  background-color: black;
+.arrow {
+	background-color: black;
 }
 .prices .price-box {
 	margin: 20px;
@@ -352,12 +352,12 @@ header.hero-img .fa-chevron-down {
 }
 .social-link {
 	text-decoration: none;
-  padding: 10px;
+	padding: 10px;
 	color: #fff;
-  transition: color 0.3s;
+	transition: color 0.3s;
 }
-.social-link:hover{
-  color: #a2d2ff
+.social-link:hover {
+	color: #a2d2ff;
 }
 .contact .contact-us .social-media a {
 	padding: 10px;
@@ -367,7 +367,25 @@ header.hero-img .fa-chevron-down {
 .contact .contact-us .social-media a:hover {
 	color: #a2d2ff;
 }
+.msg-alert {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50px;
+  padding: 30px;width: 60%;
+  border-radius: 12px;
+  font-size: 24px;
+}
+.success{
+display: flex;
+background-color: #a2d2ff;
+}
+.error{
+  display: flex;
+  background-color: #ec828b;
 
+}
 @media (min-width: 768px) {
 	.hero-text h1 {
 		font-size: 42px;

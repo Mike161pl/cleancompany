@@ -16,9 +16,7 @@
     <script src="https://kit.fontawesome.com/c714fecd89.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<?
-include("php/form.php");
-?>
+
 <body data-bs-spy="scroll" data-bs-target="#navId">
     <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3" id="navId">
         <div class="container">
@@ -449,21 +447,21 @@ include("php/form.php");
                     </div>
                     <div class="col-sm-6 col-lg-4 contact-item order-1">
                         <h3>Formularz kontaktowy</h3>
-                    
+
                         <div id="send_form_status"></div>
                         <div class="row">
-                            <form method="post" name="contactform" action="php/form.php">
+                            <form method="post" name="contactform" action="php/mail.php">
 
                                 <div class="col-sm-12">
                                     <div class="form-group">
-                                        <input type="text" name="name" id="name" class="form-control"
+                                        <input type="text" name="name" id="name" required class="form-control"
                                             placeholder="* Imię i nazwisko / Nazwa firmy">
                                     </div>
                                 </div>
 
                                 <div class="col-sm-12">
                                     <div class="form-group">
-                                        <input type="text" name="email" id="email" class="form-control"
+                                        <input type="text" name="email" required id="email" class="form-control"
                                             placeholder="* Adres e-mail">
                                     </div>
                                 </div>
@@ -480,15 +478,16 @@ include("php/form.php");
 
                                 <div class="col-sm-12">
                                     <div class="form-group">
-                                        <input type="text" name="tel" id="tel" class="form-control"
+                                        <input type="text" required name="tel" id="tel" class="form-control"
                                             placeholder="* Numer telefonu">
                                     </div>
                                 </div>
 
                                 <div class="col-sm-12">
                                     <div class="textarea-message form-group">
-                                        <textarea name="message" id="message" class="textarea-message form-control"
-                                            placeholder="* Wiadomość" rows="5"></textarea>
+                                        <textarea name="message" required id="message"
+                                            class="textarea-message form-control" placeholder="* Wiadomość"
+                                            rows="5"></textarea>
                                     </div>
                                 </div>
                                 <div>
@@ -500,7 +499,7 @@ include("php/form.php");
                                 </div>
 
                             </form>
-
+                            <p class="'msg-alert"></p>
                         </div>
                     </div>
                 </div>

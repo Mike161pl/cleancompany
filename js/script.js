@@ -4,6 +4,23 @@ document.addEventListener('DOMContentLoaded', function () {
 	const navList = document.querySelector('.navbar-collapse')
 	const navButton = document.querySelector('.navbar-toggler')
 	const footerYear = document.querySelector('.footer__year')
+	const msgStatus = document.querySelector('msg-alert')
+	if (document.location.search === '?mail_status=sent') {
+		msgStatus.classList.add('success')
+		msgStatus.textContent = 'Wiadomość została wysłana'
+
+		setTimeout(() => {
+			msgStatus.classList.remove('success')
+		})
+	}
+	if (document.location.search === '?mail_status=error') {
+		msgStatus.classList.add('error')
+		msgStatus.textContent = 'Wystąpił błąd'
+		
+		setTimeout(() => {
+			msgStatus.classList.remove('error')
+		})
+	}
 
 	function addShadow() {
 		if (window.scrollY >= 50) {
@@ -13,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 	}
 	function buttonShadow() {
-		if (window.scrollY >= 0){
+		if (window.scrollY >= 0) {
 			nav.classList.add('shadow-bg')
 		}
 	}
@@ -27,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		const year = new Date().getFullYear()
 		footerYear.innerText = year
 	}
-	
+
 	handleCurrentYear()
 	window.addEventListener('scroll', addShadow)
 	navButton.addEventListener('click', buttonShadow)
