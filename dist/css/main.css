@@ -71,7 +71,7 @@ nav .navbar-nav .show > .nav-link {
 header.hero-img {
 	position: relative;
 	height: 100vh;
-	background-image: url('../img/small-home.jpg');
+	background-image: url('dist/img/small-home.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -132,7 +132,7 @@ header.hero-img .fa-chevron-down {
 .aboutus-hero {
 	position: relative;
 
-	background-image: url('../img/cleanerstuff-small.jpg');
+	background-image: url('dist/img/cleanerstuff-small.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top;
@@ -322,7 +322,7 @@ header.hero-img .fa-chevron-down {
 
 .opinion {
 	position: relative;
-	background-image: url('../img/background.jpeg');
+	background-image: url('dist/img/background.jpeg');
 	background-size: cover;
 	background-attachment: fixed;
 	z-index: 0;
@@ -381,7 +381,7 @@ header.hero-img .fa-chevron-down {
 
 .contact {
 	position: relative;
-	background-image: url('../img/cleanerstuff-big.jpg');
+	background-image: url('dist/img/cleanerstuff-big.jpg');
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -517,11 +517,11 @@ background-color: #a2d2ff;
 		scroll-padding-top: 72px;
 	}
 	.aboutus-hero {
-		background-image: url('../img/cleanerstuff-big.jpg');
+		background-image: url('dist/img/cleanerstuff-big.jpg');
 	}
 }
 @media (min-width: 1200px) {
 	header.hero-img {
-		background-image: url('../img/big-home.jpg');
+		background-image: url('dist/img/big-home.jpg');
 	}
 } /*# sourceMappingURL=main.css.map */
