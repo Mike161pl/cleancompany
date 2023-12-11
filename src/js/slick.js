@@ -1,4 +1,4 @@
-$('.team-carousel').slick({
+$('.opinion-carousel').slick({
 	arrows: false,
 	autoplay: true,
 	mobileFirst: true,
