@@ -1,7 +1,7 @@
 
 
 
-# Project Auto-Serwis
+# Project Połysk&fresh
 See the live version of [Połysk&fresh](https://polyskfresh.pl/).
 
 
