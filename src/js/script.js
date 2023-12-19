@@ -4,22 +4,22 @@ document.addEventListener('DOMContentLoaded', function () {
 	const navList = document.querySelector('.navbar-collapse')
 	const navButton = document.querySelector('.navbar-toggler')
 	const footerYear = document.querySelector('.footer__year')
-	const msgStatus = document.querySelector('msg-alert')
+	const msgStatus = document.querySelector('.msg-alert')
 	if (document.location.search === '?mail_status=sent') {
 		msgStatus.classList.add('success')
 		msgStatus.textContent = 'Wiadomość została wysłana'
 
 		setTimeout(() => {
 			msgStatus.classList.remove('success')
-		})
+		},3000)
 	}
 	if (document.location.search === '?mail_status=error') {
 		msgStatus.classList.add('error')
 		msgStatus.textContent = 'Wystąpił błąd'
-		
+
 		setTimeout(() => {
 			msgStatus.classList.remove('error')
-		})
+		},3000)
 	}
 
 	function addShadow() {
